@@ -9,4 +9,5 @@ window.addEventListener('scroll', updateImage);
 
 function updateImage() {
   backgroundImage.style.opacity = 1 - window.scrollY / 600;
+  backgroundImage.style.backgroundSize = 120 - window.scrollY / 20 + '%';
 }
