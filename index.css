@@ -81,8 +81,9 @@ footer .contact-icons {
   gap: 15px;
 }
 #bg-image-container {
-  background: url(./images/bck.jpg);
-  background-size: 160%;
+  background: url(./images/image-3.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   width: 100%;
